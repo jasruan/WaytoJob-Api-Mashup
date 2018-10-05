@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Way to Job</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <meta charset="utf-8">
+ <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+    <body>
+<canvas>Canvas not supported in this browser. </canvas> 
+<div id="wrapper">
+<div id="jobMap"></div>
+<div id="jobDiv">
+<div class="field">
+<h3>Job Search</h3>
+
+    <label for="search">Location: </label>
+    <input type="text" id="search" size="25" name="location" value="" placeholder="Enter location here..." required autofocus>
+    <br>
+    <div id="radioButts">
+    <label for="limit">Number of Results to Show: </label>
+    <input type="radio" name="limit" value="5" checked>5
+     <input type="radio" name="limit" value="10">10
+     <input type="radio" name="limit" value="15">15
+       <input type="radio" name="limit" value="25">25
+     </div>
+    <div class="popup">
+    <span class="popuptext" id="myPop"> Please a location!</span>
+    </div>
+<input type="submit" id="submit" value="Search">
+<hr>
+</div>
+<div id="jobResults"></div>
+</div>
+</div>
+
+<script src="main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTa3h6Ng15OlDlIax687ipdxyf_Soh12U&callback"
+    async defer></script>  
+
+</body>
+</html>

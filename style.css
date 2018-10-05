@@ -1,0 +1,53 @@
+body{
+        background-color:floralwhite;
+        font-family: 'Roboto', sans-serif;
+    }
+   canvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    }
+    #jobDiv{
+        width:45%;
+        height:100%;
+       float:right;
+        background-color:antiquewhite;
+        display:inline-block;
+        border-radius:10px;
+        overflow:scroll;
+    }
+    #jobMap{
+        width:50%;
+        height:100%;
+        background-color:aquamarine;
+        overflow: auto;
+        display:inline-block;
+    }
+#wrapper{
+ position: absolute;
+  margin: auto;
+  top: 20%;
+  right: 0;
+  bottom:0;
+  left: 0;
+  width:95%;
+  height: 79%;
+  border-radius: 3px;
+padding-top:100px;
+padding-bottom: 20px;
+    }
+#jobResults{
+    font:15px 'Roboto', sans-serif; 
+    margin:20px;
+}
+.field{
+    padding:15px;
+}
+.popup{
+visibility: hidden;
+}
+#radioButts{
+padding-top: 5px;
+}
