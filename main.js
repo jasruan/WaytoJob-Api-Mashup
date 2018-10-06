@@ -4,11 +4,10 @@
 var map,infowindow;
 var markers=[];
 var ctx, canvas;
-var API_URL="https://api.indeed.com/ads/apisearch?publisher=";
+var API_URL="http://api.indeed.com/ads/apisearch?publisher=";
 var API_KEY="1759705264997827";
 var API_URLMID="&q=&l="
 var API_URLEND="&sort=&format=json&radius=&st=&jt=&start=&limit=";
-window.onload=init;
     //initialize everything 
 function init(){
     canvas=document.querySelector('canvas');
